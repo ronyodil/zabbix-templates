@@ -1,10 +1,13 @@
-# Zabbix 3.4 - E2Guardian 4.1.x Template
+# Zabbix 3.4 - E2Guardian 4.1.x & 5.0.x Template
+This is a fork from [Xenadmin](https://github.com/xenadmin/zabbix-templates)
 
 ## Introduction
 This is my approach for a performance monitoring Template of the content filtering proxy [E2guardian](http://e2guardian.org/).
 
-This template was created on and for Zabbix 3.4 and E2Guardian 4.1.x on Debian 9 Stretch.
+This template was created on and for Zabbix 3.4 and E2Guardian 4.1.x on Debian 9 Stretch.  
 There is no obvoious reason I'm aware of, that would prevent this from working with other Zabbix 3.x releases or other Linux Distributions. 
+
+It's tested working on Ubuntu 16.04 with E2guardian 5.0.2 as well.
 
 ## Installation
 
@@ -35,3 +38,4 @@ There is no obvoious reason I'm aware of, that would prevent this from working w
 ## Changes
 - February 2018: initial commit.
 - 03 April 2018: Switch to Zabbix agent (active) & converted system.run item keys to proper Zabbix custom [User parameters](https://www.zabbix.com/documentation/3.4/manual/config/items/userparameters).
+- 20 December 2018: Added a few more graphs.
