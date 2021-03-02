@@ -8,6 +8,7 @@ This template was created on and for Zabbix 3.4 and E2Guardian 4.1.x on Debian 9
 There is no obvoious reason I'm aware of, that would prevent this from working with other Zabbix 3.x releases or other Linux Distributions. 
 
 It's tested working on Ubuntu 16.04 with E2guardian 5.0.2 as well.
+It's working on Debian 10 with Zabbix 4.0 and e2guardian 5.4.
 
 ## Installation
 
@@ -39,3 +40,4 @@ It's tested working on Ubuntu 16.04 with E2guardian 5.0.2 as well.
 - February 2018: initial commit.
 - 03 April 2018: Switch to Zabbix agent (active) & converted system.run item keys to proper Zabbix custom [User parameters](https://www.zabbix.com/documentation/3.4/manual/config/items/userparameters).
 - 20 December 2018: Added a few more graphs.
+- 02 March 2021: Added graphs and changed parameters to match 1 minute interval in dstats. Also switched to passive agent.
